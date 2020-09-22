@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1620.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Classes">
+   <children>
+      <BorderPane fx:id="mainView" prefHeight="1080.0" prefWidth="1620.0" >
+         <top>
+            <Text onMouseClicked="#initialize" strokeType="OUTSIDE" strokeWidth="0.0" text="Classes" underline="true" BorderPane.alignment="TOP_LEFT">
+               <BorderPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </BorderPane.margin>
+               <font>
+                  <Font size="44.0" />
+               </font>
+            </Text>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>
